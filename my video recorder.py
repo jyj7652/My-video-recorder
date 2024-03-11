@@ -12,7 +12,7 @@ fourcc = cv2.VideoWriter_fourcc(*'DIVX')
 record = False
 
 # 녹화 확인 용 원
-COLOR =(0, 0, 255) # BGR 옥색
+COLOR =(0, 0, 255) # BGR 빨간색
 RADIUS = 10 # 반지름
 
 # 프레임 크기, FPS

@@ -13,7 +13,7 @@ assert video.isOpened(), 'Cannot read the given video, ' + video_file
 fps = video.get(cv.CAP_PROP_FPS)
 wait_msec = int(1 / fps * 1000)
 
-while True:
+while True:3edw
     # Read an image from 'video'
     valid, img = video.read()
     if not valid:
